@@ -37,5 +37,5 @@ pip install bs4
 
 ## サーバアプリケーションを動かす方法
 ```
-python2 scraping.py
+python3 run2.py
 ```
