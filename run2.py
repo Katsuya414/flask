@@ -18,9 +18,9 @@ def form():
 @app.route("/index", methods = ['POST', 'GET'])
 def index():
     if request.method == 'POST':
-       result = request.form
+       result = request.form.get('Name')
        brands = {}
-       res = requests.get('https://folio-sec.com/theme/' + "%s" % result.text)
+       res = requests.get('https://folio-sec.com/theme/' + "%s" % result)
        res.raise_for_status()
        soup = bs4.BeautifulSoup(res.text, "html.parser")
        elems = soup.find_all(class_="TextMainLink__textMainLink--38tbe Instruments__instrumentName--4jzC9 gtm-stock-detail")
