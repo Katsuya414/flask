@@ -28,8 +28,8 @@ brew install python3
 ```
 pip3 install requests
 pip3 install bs4
-pip3 install　json
-pip3 install　numpy
+pip3 install json
+pip3 install numpy
 ```
 
 ## サーバアプリケーションを動かす方法
