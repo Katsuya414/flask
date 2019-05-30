@@ -42,6 +42,8 @@ http://localhost:5000/form
 demo Video
 - https://github.com/Katsuya414/flask/blob/master/example.mov
 
+Demo image
+
 <img width="234" alt="example" src="https://user-images.githubusercontent.com/23134366/58650882-ceb07480-834a-11e9-90f3-59254892ef6b.png">
 
 
