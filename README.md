@@ -1,8 +1,3 @@
-# スクレイピング
-スプレイピング結果を出力するサーバアプリケーション
-https://folio-sec.com/theme/<テーマ名> というURLから銘柄をスクレイピングする
-  テーマ名を入力として受け取り、指定したテーマ銘柄を出力する
-
 ## 作ったもの
  https://folio-sec.com/theme/<テーマ名>というURLになっているが
  そのテーマ名を入力として受け取り指定したテーマの銘柄一覧を見れるようにするサーバーアプリケーション
@@ -15,7 +10,7 @@ OS macOS ver 10.13.6
 
 python version Python 3.7.2
 
-追加ライブラリー requests, bs4,json
+追加ライブラリー requests, bs4,json,flask
 
 ## 環境構築方法
 Homebrewのインストール
@@ -31,8 +26,9 @@ brew install python
 
 追加ライブラリーのインストール
 ```
-pip install requests
-pip install bs4
+pip3 install requests
+pip3 install bs4
+
 ```
 
 ## サーバアプリケーションを動かす方法
