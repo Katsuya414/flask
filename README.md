@@ -21,17 +21,22 @@ Homebrewのインストール
 
 pipのインストール
 ```
-brew install python
+brew install python3
 ```
 
 追加ライブラリーのインストール
 ```
 pip3 install requests
 pip3 install bs4
-
+pip3 install　json
+pip3 install　numpy
 ```
 
 ## サーバアプリケーションを動かす方法
 ```
 python3 run2.py
+```
+次のURLにアクセス
+```
+http://localhost:5000/form
 ```
