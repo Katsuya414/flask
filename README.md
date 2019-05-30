@@ -42,3 +42,8 @@ http://localhost:5000/form
 ```
 実際に行ったデモ
 - https://github.com/Katsuya414/flask/blob/master/example.mov
+
+## 今後の実装予定(時間があれば)
+- Docker imageを作成
+- クエリがなかった場合の処理と値をとってこれなかった時の処理の追加
+- デザインの追加(見栄えのため)
